@@ -3,3 +3,12 @@ Title:Case generator
 Input:user able to enter words.
 
 output:Capitalize the first letter of the user's input.
+
+
+1. Capitalize the first letter of a one word title.
+input: "beowulf"
+output: "Beowulf"
+
+2. Capitalize the first letter of each word in a multiple word title.
+input: "queen elizabeth"
+output: "Queen Elizabeth"
