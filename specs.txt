@@ -1,0 +1,5 @@
+Title:Case generator
+
+Input:user able to enter words.
+
+output:Capitalize the first letter of the user's input.
