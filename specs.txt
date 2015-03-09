@@ -12,3 +12,7 @@ output: "Beowulf"
 2. Capitalize the first letter of each word in a multiple word title.
 input: "queen elizabeth"
 output: "Queen Elizabeth"
+
+3.dont capitalize the small words comes after the first word.
+input:"sun rises in the east"
+output:"Sun Rises in the East".
