@@ -7,7 +7,8 @@ class TitleCaseGenerator
         $exceptional_words = array("a","an","the","of","in","or","and");
         $input_array_of_words = explode(" ", $input_title);
         $output_titlecased = array();
-        
+        $final = "text";
+
         // foreach($input_array_of_words as $word)
         // {
         //
@@ -33,14 +34,19 @@ class TitleCaseGenerator
                 {
                     if($input_array_of_words[$i] == $exceptional_words[$j])
                         {
-                            array_push($output_titlecased, $input_array_of_words[$i]);
+                            $final = $input_array_of_words[$i];
                         }
+                    else
+                    {
+                        $final = ucfirst($input_array_of_words[$i]);
+                        
+                    }
 
 
                 }
 
 
-                        array_push($output_titlecased, ucfirst($input_array_of_words[$i]));
+                        array_push($output_titlecased, $final);
 
             }
 
